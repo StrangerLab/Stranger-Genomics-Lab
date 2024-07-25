@@ -1,14 +1,14 @@
 ---
-name: Jane Smith
+name: Dr. Barbara Stranger
 image: images/photo.jpg
-role: pi
-affiliation: University of Colorado
+role: Principal Investigator
+affiliation: Anschutz Medical Centre, University of Colorado
 aliases:
-  - J. Smith
-  - J Smith
+  - B. Stranger
+  - B Stranger
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: https://strangerlab.github.io/Stranger-Genomics-Lab/
+  orcid: 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
