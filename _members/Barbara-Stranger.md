@@ -2,7 +2,6 @@
 name: Dr. Barbara Stranger
 image: images/photo.jpg
 role: Principal Investigator
-affiliation: Anschutz Medical Centre, University of Colorado
 aliases:
   - B. Stranger
   - B Stranger
