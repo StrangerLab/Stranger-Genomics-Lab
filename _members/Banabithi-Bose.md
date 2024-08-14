@@ -1,7 +1,8 @@
 ---
-name: Banabithi Bose, PhD
+name: Dr. Banabithi Bose
 image: images/photo.jpg
 group: Postdoctoral Scientist
+role: Postdoctoral Scientist
 github: boseb
 links:
   home-page: https://www.banabithibose.com/
