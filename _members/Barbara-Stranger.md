@@ -2,6 +2,7 @@
 name: Dr. Barbara Stranger
 image: images/photo.jpg
 role: Principal Investigator
+role: Principal Investigator
 aliases:
   - B. Stranger
   - B Stranger
