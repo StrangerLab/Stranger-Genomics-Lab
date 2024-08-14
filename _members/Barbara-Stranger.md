@@ -8,7 +8,7 @@ aliases:
   - B Stranger
 links:
   home-page: https://strangerlab.github.io/Stranger-Genomics-Lab/
-    twitter: @be_stranger
+    twitter: be_stranger
 ---
 
 Dr. Barbara Stranger, Ph.D., is a Professor in the Department of Biomedical Informatics at the University of Colorado School of Medicine, Denver, CO and a core member of the Ludeman Family Center for Women's Health Research. She holds the Lyda M. Ludeman Endowed Chair in Bioinformatics in Women’s Health Research. Dr. Stranger received her PhD from The University of Montana and completed postdoctoral fellowships at the Wellcome Trust Sanger Institute in Cambridge, UK, and the University of Barcelona, Spain. Before joining University of Colorado, Dr. Stranger was an Associate Professor Pharmacology at Northwestern University, and Assistant Professor of Medicine at the University of Chicago and  Harvard Medical School. 
