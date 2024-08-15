@@ -71,3 +71,13 @@ Our team is composed of a diverse group of scientists and researchers specializi
 {% endcapture %}
 
 {% include section.html %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="team"
+  title="Our Team"
+  text=text
+%}
+
+
