@@ -24,7 +24,7 @@ Unveiling Sexual Dimorphism Through Human Genetic Variation
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Sexual_Dimorphism_in_Human_Genetic_Variation_Corrected.jpeg"
   link="research"
   title="Our Research"
   text=text
@@ -70,3 +70,4 @@ Our team is composed of a diverse group of scientists and researchers specializi
 
 {% endcapture %}
 
+{% include section.html %}
