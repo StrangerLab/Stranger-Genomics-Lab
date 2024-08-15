@@ -25,4 +25,17 @@ nav:
 
 {% include section.html %}
 
+# Former junior faculty
+
+**Mark Applebaum, MD**
+
+Currently Associate Professor, University of Chicago, Chicago, IL https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
+
+# Former junior faculty
+
+**Mark Applebaum, MD**
+
+Currently Associate Professor, University of Chicago, Chicago, IL https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
+
+
 
