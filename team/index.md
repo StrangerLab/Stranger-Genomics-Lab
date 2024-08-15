@@ -9,118 +9,76 @@ nav:
 
 **Our team is composed of a diverse group of scientists and researchers specializing in computational genomics. With a strong emphasis on integrating computational methods with genomics research, our lab team includes bioinformaticians, geneticists, data scientists, and research technicians.**
 
-
-{% include section.html background="images/background.jpg" dark=true %}
-
 # Current Lab Members
-
-{% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
-
 # Lab Alumni
-
-{% include section.html %}
 
 ## Junior faculty
 
-**Mark Applebaum, MD**
-
-Current Position: Associate Professor, University of Chicago, Chicago, IL 
-
-https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
+**Mark Applebaum, MD**Current Position: Associate Professor, University of Chicago, Chicago, IL. https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
 
 ## Postdoctoral Fellows
 
-**Kimberly Dobrinski, PhD**
+**Kimberly Dobrinski, PhD** Current Position: Associate Professor, University of Tampa, Tampa, FL. https://www.ut.edu/directory/dobrinski-kimberly-p
 
-Current Position: Associate Professor, University of Tampa, Tampa, FL. 
+**Towfique Raj, PhD** Current Position: Associate Professor, Icahn School of Medicine at Mount Sinai, New York, NY. https://rajlab.org/team.html
 
-https://www.ut.edu/directory/dobrinski-kimberly-p
+**Patrick Evans, PhD.** Current Position: Research Instructor, Vanderbilt University Medical Center, Nashville, TN. https://medicine.vumc.org/department-directory/Patrick-Evans
 
-**Towfique Raj, PhD** 
+**Wenndy Hernandez, PhD** Current Position: Professor, School of Public Health, University of Pittsburgh, Pittsburgh, PA. https://www.publichealth.pitt.edu/directory/wenndy-hernandez
 
-Current Position: Associate Professor, Icahn School of Medicine at Mount Sinai, New York, NY. 
+**Ekaterina Khramtsova, PhD** Current Position: Associate Director of AI/ML, Didactic.AI, Seattle, WA. https://didactic.ai/, Previously Senior Scientist at Janssen Pharmaceuticals, Philadelphia, PA.
 
-https://rajlab.org/team.html
-
-**Patrick Evans, PhD.** 
-
-Current Position: Research Instructor, Vanderbilt University Medical Center, Nashville, TN. 
-
-https://medicine.vumc.org/department-directory/Patrick-Evans
-
-**Wenndy Hernandez, PhD**
-
-Current Position: Professor, School of Public Health, University of Pittsburgh, Pittsburgh, PA. https://www.publichealth.pitt.edu/directory/wenndy-hernandez
-
-**Ekaterina Khramtsova, PhD** 
-
-Current Position: Associate Director of AI/ML, Didactic.AI, Seattle, WA. https://didactic.ai/, Previously Senior Scientist at Janssen Pharmaceuticals, Philadelphia, PA.
-
-**Meritxell Oliva PhD** 
-
-Current Position: Senior Researcher, Abbvie Pharmaceuticals, North Chicago, IL. https://www.abbvie.com/
+**Meritxell Oliva PhD** Current Position: Senior Researcher, Abbvie Pharmaceuticals, North Chicago, IL. https://www.abbvie.com/
 
 ## Graduate students
 
-**Charles Czysz, M.S.** 
+**Charles Czysz, M.S.** Current Position: Senior Bioinformatics Scientist at Center for Translational Data Science, University of Chicago, Chicago, IL. https://ctds.uchicago.edu/
 
-Current Position: Senior Bioinformatics Scientist at Center for Translational Data Science, University of Chicago, Chicago, IL. https://ctds.uchicago.edu/
+## Post-baccalaureate Fellows
 
-## Post-baccalaureate Fellows:
+**Daisy Castillo Guzman, PhD** Current Position: Scientist II, Altos Labs, San Francisco, CA. https://www.altoslabs.com/
 
-**Daisy Castillo Guzman, PhD** 
-
-Current Position: Scientist II, Altos Labs, San Francisco, CA. https://www.altoslabs.com/
-
-**Edgar (Andy) Rivera Munoz**
-
-Current Position: PhD Candidate, Baylor College of Medicine, Houston, TX. 
-
-https://www.bcm.edu/people-search/edgar-rivera-munoz-29328
+**Edgar (Andy) Rivera Munoz** Current Position: PhD Candidate, Baylor College of Medicine, Houston, TX. https://www.bcm.edu/people-search/edgar-rivera-munoz-29328
 
 ## Undergraduate researchers
 
-**Joseph M. Replogle, MD, PhD** 
+**Joseph M. Replogle, MD, PhD** Current Position: Resident Physician, Massachusetts General Hospital and Harvard Medical School, Boston, MA. 
 
-Current Position: Resident Physician, Massachusetts General Hospital and Harvard Medical School, Boston, MA. 
+**Adam Gruenbaum, B.A.** Current Position: Software Engineer at Institute for Health Metrics and Evaluation, Seattle, WA 
 
-**Adam Gruenbaum, B.A.** 
+**Catherine Ludwig, MD** Current Position: Resident Physician, University of California San Francisco, San Francisco, CA
 
-Current Position: Software Engineer at Institute for Health Metrics and Evaluation, Seattle, WA 
+**Raphael Heldman** Current Position: PhD Candidate, Max Planck Florida Institute for Neuroscience, Jupiter, FL
 
-**Catherine Ludwig, MD** 
+**Elizabeth Lipschultz** Current Position: Software Engineer, CancerLinQ, Salt Lake City, Salt Lake, UT. 
 
-Current Position: Resident Physician, University of California San Francisco, San Francisco, CA
+**Christina Andreou** Current Position: Medical Student at Jacobs School of Medicine and Biomedical Sciences, University of Buffalo, Buffalo, NY. 
 
-**Raphael Heldman** 
+**Evan Beiter, MD, MBA** Current Position: Resident Physician, Stanford Medicine, Palo Alto, CA. 
 
-Current Position: PhD Candidate, Max Planck Florida Institute for Neuroscience, Jupiter, FL
+**Dahlia Walters** Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA. 
 
-**Elizabeth Lipschultz** 
+**Jordyne Prussak** Current Position: Engineering and Applied Sciences MBA Candidate at Columbia Business School and MA at Columbia University’s Fu Foundation School of Engineering and Applied Science (Dual MBA x MA), Columbia University, New York, NY
 
-Current Position: Software Engineer, CancerLinQ, Salt Lake City, Salt Lake, UT. 
+## Lab staff
 
-**Christina Andreou** 
+**Marian Fernando, MS.** Current Position: Regulatory Affairs Manager, University of Chicago, Chicago, IL
 
-Current Position: Medical Student at Jacobs School of Medicine and Biomedical Sciences, University of Buffalo, Buffalo, NY. 
+**William Buggele, PhD.** Current Position: Principal Scientist, Ethicon, Inc., Cincinnati, OH. 
 
-**Evan Beiter, MD, MBA** 
+**Ian J. Begeman** Current Position: PhD Candidate, University of Wisconsin, Madison, WI 
 
-Current Position: Resident Physician, Stanford Medicine, Palo Alto, CA. 
+**Caroline Linke Ewart, MS.** Current Position: Genetic Counselor, Clinical Coordinator, St. Elizabeth Healthcare, Edgewood, KY
 
-**Dahlia Walters** 
+**Gerardo Alcantara, DPM.** Current Position: Surgical Resident, Kent State University College of Podiatric Medicine, Independence, OH
 
-Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA. 
+**Andrew Skol, PhD** Current Position: Bioinformatics Scientist, Ann & Robert H. Lurie Children’s Hospital, Chicago, IL
 
-**Jordyne Prussak**
-
-Current Position: Engineering and Applied Sciences MBA Candidate at Columbia Business School and MA at Columbia University’s Fu Foundation School of Engineering and Applied Science (Dual MBA x MA), Columbia University, New York, NY
-
+**Dahlia Walters** Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA.
 
 
 
