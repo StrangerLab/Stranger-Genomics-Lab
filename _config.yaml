@@ -8,12 +8,11 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@StrangerLabDESCRIPTION=An engaging 1-3 sentence description of your lab..com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: StrangerLabDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  twitter: StrangerLabDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  youtube: StrangerLabDESCRIPTION=An engaging 1-3 sentence description of your lab.
+  email: barbara.stranger@northwestern.edu
+  orcid: 0000-0001-9021-7331
+  google-scholar: vQwDZR8AAAAJ
+  github: Stranger Genomics Lab
+  twitter: be_stranger
 
 ### jekyll settings
 
