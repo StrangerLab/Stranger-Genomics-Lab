@@ -21,21 +21,109 @@ nav:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-# Former Lab Members
+# Lab Alumni
 
 {% include section.html %}
 
-# Former junior faculty
+## Junior faculty
 
 **Mark Applebaum, MD**
 
-Currently Associate Professor, University of Chicago, Chicago, IL https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
+Current Position: Associate Professor, University of Chicago, Chicago, IL 
 
-# Former junior faculty
+https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
 
-**Mark Applebaum, MD**
+## Postdoctoral Fellows
 
-Currently Associate Professor, University of Chicago, Chicago, IL https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
+**Kimberly Dobrinski, PhD**
+
+Current Position: Associate Professor, University of Tampa, Tampa, FL. 
+
+https://www.ut.edu/directory/dobrinski-kimberly-p
+
+**Towfique Raj, PhD** 
+
+Current Position: Associate Professor, Icahn School of Medicine at Mount Sinai, New York, NY. 
+
+https://rajlab.org/team.html
+
+**Patrick Evans, PhD.** 
+
+Current Position: Research Instructor, Vanderbilt University Medical Center, Nashville, TN. 
+
+https://medicine.vumc.org/department-directory/Patrick-Evans
+
+**Wenndy Hernandez, PhD**
+
+Current Position: Professor, School of Public Health, University of Pittsburgh, Pittsburgh, PA. https://www.publichealth.pitt.edu/directory/wenndy-hernandez
+
+**Ekaterina Khramtsova, PhD** 
+
+Current Position: Associate Director of AI/ML, Didactic.AI, Seattle, WA. https://didactic.ai/, Previously Senior Scientist at Janssen Pharmaceuticals, Philadelphia, PA.
+
+**Meritxell Oliva PhD** 
+
+Current Position: Senior Researcher, Abbvie Pharmaceuticals, North Chicago, IL. https://www.abbvie.com/
+
+## Graduate students
+
+**Charles Czysz, M.S.** 
+
+Current Position: Senior Bioinformatics Scientist at Center for Translational Data Science, University of Chicago, Chicago, IL. https://ctds.uchicago.edu/
+
+## Post-baccalaureate Fellows:
+
+**Daisy Castillo Guzman, PhD** 
+
+Current Position: Scientist II, Altos Labs, San Francisco, CA. https://www.altoslabs.com/
+
+**Edgar (Andy) Rivera Munoz**
+
+Current Position: PhD Candidate, Baylor College of Medicine, Houston, TX. 
+
+https://www.bcm.edu/people-search/edgar-rivera-munoz-29328
+
+## Undergraduate researchers
+
+**Joseph M. Replogle, MD, PhD** 
+
+Current Position: Resident Physician, Massachusetts General Hospital and Harvard Medical School, Boston, MA. 
+
+**Adam Gruenbaum, B.A.** 
+
+Current Position: Software Engineer at Institute for Health Metrics and Evaluation, Seattle, WA 
+
+**Catherine Ludwig, MD** 
+
+Current Position: Resident Physician, University of California San Francisco, San Francisco, CA
+
+**Raphael Heldman** 
+
+Current Position: PhD Candidate, Max Planck Florida Institute for Neuroscience, Jupiter, FL
+
+**Elizabeth Lipschultz** 
+
+Current Position: Software Engineer, CancerLinQ, Salt Lake City, Salt Lake, UT. 
+
+**Christina Andreou** 
+
+Current Position: Medical Student at Jacobs School of Medicine and Biomedical Sciences, University of Buffalo, Buffalo, NY. 
+
+**Evan Beiter, MD, MBA** 
+
+Current Position: Resident Physician, Stanford Medicine, Palo Alto, CA. 
+
+**Dahlia Walters** 
+
+Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA. 
+
+**Jordyne Prussak**
+
+Current Position: Engineering and Applied Sciences MBA Candidate at Columbia Business School and MA at Columbia University’s Fu Foundation School of Engineering and Applied Science (Dual MBA x MA), Columbia University, New York, NY
+
+
+
+
 
 
 
