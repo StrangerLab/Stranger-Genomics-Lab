@@ -1,8 +1,8 @@
 # site properties and page defaults
-title: Stranger Genomics Lab
+title: StrangerLab
 subtitle: 
-description: 
-header: images/Sexual_Dimorphism_in_Human_Genetic_Variation_Corrected.jpeg
+description: Genetics and genomics of complex traits in humans: regulatory variation, gene – environment interactions, sex differences
+header: images/sex_GTEx_wordcloud.jpg
 footer: images/background.jpg
 proofer: false
 
