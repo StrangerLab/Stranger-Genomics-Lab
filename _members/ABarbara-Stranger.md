@@ -1,6 +1,6 @@
 ---
 name: Dr. Barbara Stranger
-image: images/photo.jpg
+image: images/Headshot_Stranger.jpg
 description: Principal Investigator
 role: Geneticist
 links:
