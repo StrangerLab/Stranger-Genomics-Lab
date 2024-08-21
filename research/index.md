@@ -25,7 +25,7 @@ Utilizing state-of-the-art computational methodologies, we explore the intricate
   link="http://scholar.google.com/citations?hl=en&user=vQwDZR8AAAAJ"
 %}
 
-The citations on this page were generated automatically from just identifiers using the [Manubot cite utility](https://github.com/manubot/manubot#cite) 
+Highligted citations on this page were generated automatically from just identifiers using the [Manubot cite utility](https://github.com/manubot/manubot#cite) 
 
 {% include search-box.html %}
 
