@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Our ongoing projects
+**Our ongoing projects**
 
 {% include search-info.html %}
 
@@ -22,3 +22,5 @@ Our ongoing projects
 ## More
 
 {% include list.html component="card" data="projects" filters="group: " style="small" %}
+
+{% include section.html %}
