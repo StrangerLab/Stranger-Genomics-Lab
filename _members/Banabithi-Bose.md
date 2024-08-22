@@ -1,6 +1,6 @@
 ---
 name: Dr. Banabithi Bose
-image: images/BOSE.JPEG
+image: images/BOSE.JPG
 description: Postdoctoral Scientist
 role: Scientist
 links:
