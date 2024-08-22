@@ -5,9 +5,7 @@ nav:
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
-
-**Our ongoing projects**
+# {% include icon.html icon="fa-solid fa-wrench" %}Our ongoing projects
 
 {% include search-info.html %}
 
