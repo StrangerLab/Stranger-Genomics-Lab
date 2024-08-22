@@ -58,19 +58,21 @@ We aim to pinpoint causal genes and pathways, enhancing our understanding of dis
 Our team is composed of a diverse group of scientists and researchers specializing in computational genomics. With a strong emphasis on integrating computational methods with genomics research, our lab team includes bioinformaticians, geneticists, data scientists, and research technicians.
 
 {%
-  include feature.html
-  link="team"
-  title="Our Team"
-  text=text
-%}
-{:.center}
-{% endcapture %}
-{%
   include button.html
-  image="images/team.jpg"
   link="team"
   text="Meet our team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
+%}
+{:.center}
+{% endcapture %}
+{%
+  include feature.html
+  image="images/team.jpg"
+  link="projects"
+  title="Our Team"
+  flip=true
+  style="bare"
+  text=text
 %}
