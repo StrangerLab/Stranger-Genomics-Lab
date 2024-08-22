@@ -6,6 +6,12 @@ title: Genetics and genomics of complex traits in humans
 
 We are an innovative statistical genetics research laboratory in the Department of [Biomedical Informatics](https://medschool.cuanschutz.edu/dbmi) and the [Ludeman Family Center for Women's Health Research](https://medschool.cuanschutz.edu/center-for-womens-health-research) at the [University of Colorado Anschutz Medical Campus](https://medschool.cuanschutz.edu/). Our work is at the cutting edge of understanding how human genetic variation drives molecular traits like gene expression, ultimately shaping phenotypic diversity in health and disease. Utilizing state-of-the-art computational methodologies, we explore the intricate ways sex influences the genetic architecture of complex traits and diseases. 
 
+{%
+  include figure.html
+  image="images/group-photo-1.jpg"
+  width="60%"
+%}
+
 {% include section.html %}
 
 ## Highlights
