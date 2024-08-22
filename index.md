@@ -55,7 +55,7 @@ We aim to pinpoint causal genes and pathways, enhancing our understanding of dis
 %}
 
 {% capture text %}
-Our team is composed of a diverse group of scientists and researchers specializing in computational genomics. With a strong emphasis on integrating computational methods with genomics research, our lab team includes bioinformaticians, geneticists, data scientists, and research technicians.
+Our team is composed of a diverse group of scientists and researchers specializing in computational genomics. 
 
 {%
   include button.html
