@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: StrangerLab
-subtitle: Genetics and genomics of complex traits in humans
-description: Regulatory variation, gene – environment interactions, sex differences
+subtitle: 
+description: 
 header: images/humangenetics.jpg
 footer: images/sex_GTEx_wordcloud.jpg
 proofer: false
