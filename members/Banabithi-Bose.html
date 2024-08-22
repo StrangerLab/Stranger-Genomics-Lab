@@ -324,53 +324,47 @@
         
           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200">
   <style>
-    .circle-outer {
-      fill: none;
-      stroke: #4a90e2;
-      stroke-width: 8;
-    }
     .nucleotide {
       font-family: Arial, sans-serif;
       font-size: 20px;
-      fill: #ff6347;
-      animation: rotate 5s infinite linear;
+      font-weight: bold;
+      animation: rotate 5s infinite linear, pop 1.5s infinite ease-in-out;
     }
-    .dna-strand {
-      fill: none;
-      stroke: #00BFFF;
-      stroke-width: 2;
-    }
-    .base-pair {
-      stroke: #FF6347;
-      stroke-width: 2;
-    }
+    .nucleotide:nth-child(1) { fill: #FF0000; animation-delay: 0s; }
+    .nucleotide:nth-child(2) { fill: #FF7F00; animation-delay: 0.2s; }
+    .nucleotide:nth-child(3) { fill: #FFFF00; animation-delay: 0.4s; }
+    .nucleotide:nth-child(4) { fill: #00FF00; animation-delay: 0.6s; }
+    .nucleotide:nth-child(5) { fill: #0000FF; animation-delay: 0.8s; }
+    .nucleotide:nth-child(6) { fill: #4B0082; animation-delay: 1s; }
+    .nucleotide:nth-child(7) { fill: #8B00FF; animation-delay: 1.2s; }
+
     @keyframes rotate {
       from {
-        transform: rotate(0deg) translateX(50px) rotate(0deg);
+        transform: rotate(0deg) translateX(80px) rotate(0deg);
       }
       to {
-        transform: rotate(360deg) translateX(50px) rotate(-360deg);
+        transform: rotate(360deg) translateX(80px) rotate(-360deg);
+      }
+    }
+
+    @keyframes pop {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.5);
       }
     }
   </style>
 
-  <!-- Outer circle (smaller and thicker) -->
-  <circle class="circle-outer" cx="100" cy="100" r="50"></circle>
-
-  <!-- Nucleotides (A, T, G, C) rotating along the perimeter -->
+  <!-- Nucleotides (A, T, G, C) rotating and popping with rainbow colors -->
   <text class="nucleotide" x="100" y="50">A</text>
-  <text class="nucleotide" x="100" y="50" style="animation-delay: 1.25s;">T</text>
-  <text class="nucleotide" x="100" y="50" style="animation-delay: 2.5s;">G</text>
-  <text class="nucleotide" x="100" y="50" style="animation-delay: 3.75s;">C</text>
-
-  <!-- Small DNA Helix inside the circle -->
-  <path class="dna-strand" d="M 80,100 C 85,90 115,110 120,100"></path>
-  <path class="dna-strand" d="M 80,100 C 85,110 115,90 120,100"></path>
-  
-  <!-- Base pairs -->
-  <line class="base-pair" x1="85" y1="95" x2="115" y2="105"></line>
-  <line class="base-pair" x1="85" y1="105" x2="115" y2="95"></line>
-
+  <text class="nucleotide" x="100" y="50">T</text>
+  <text class="nucleotide" x="100" y="50">G</text>
+  <text class="nucleotide" x="100" y="50">C</text>
+  <text class="nucleotide" x="100" y="50">A</text>
+  <text class="nucleotide" x="100" y="50">T</text>
+  <text class="nucleotide" x="100" y="50">G</text>
 </svg>
 
         
