@@ -322,28 +322,31 @@
     
       <span class="logo">
         
-          <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200">
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 500 200">
   <style>
     .nucleotide {
       font-family: Arial, sans-serif;
-      font-size: 20px;
+      font-size: 24px;
       font-weight: bold;
-      animation: rotate 5s infinite linear, pop 1.5s infinite ease-in-out;
+      fill: url(#rainbowGradient);
+      animation: wave 5s infinite linear, pop 1.5s infinite ease-in-out;
     }
-    .nucleotide:nth-child(1) { fill: #FF0000; animation-delay: 0s; }
-    .nucleotide:nth-child(2) { fill: #FF7F00; animation-delay: 0.2s; }
-    .nucleotide:nth-child(3) { fill: #FFFF00; animation-delay: 0.4s; }
-    .nucleotide:nth-child(4) { fill: #00FF00; animation-delay: 0.6s; }
-    .nucleotide:nth-child(5) { fill: #0000FF; animation-delay: 0.8s; }
-    .nucleotide:nth-child(6) { fill: #4B0082; animation-delay: 1s; }
-    .nucleotide:nth-child(7) { fill: #8B00FF; animation-delay: 1.2s; }
 
-    @keyframes rotate {
-      from {
-        transform: rotate(0deg) translateX(80px) rotate(0deg);
+    @keyframes wave {
+      0% {
+        transform: translateX(0) translateY(50px);
       }
-      to {
-        transform: rotate(360deg) translateX(80px) rotate(-360deg);
+      25% {
+        transform: translateX(50px) translateY(0px);
+      }
+      50% {
+        transform: translateX(150px) translateY(100px);
+      }
+      75% {
+        transform: translateX(250px) translateY(0px);
+      }
+      100% {
+        transform: translateX(350px) translateY(50px);
       }
     }
 
@@ -355,16 +358,32 @@
         transform: scale(1.5);
       }
     }
+
   </style>
 
-  <!-- Nucleotides (A, T, G, C) rotating and popping with rainbow colors -->
-  <text class="nucleotide" x="100" y="50">A</text>
-  <text class="nucleotide" x="100" y="50">T</text>
-  <text class="nucleotide" x="100" y="50">G</text>
-  <text class="nucleotide" x="100" y="50">C</text>
-  <text class="nucleotide" x="100" y="50">A</text>
-  <text class="nucleotide" x="100" y="50">T</text>
-  <text class="nucleotide" x="100" y="50">G</text>
+  <!-- Rainbow gradient for the letters -->
+  <defs>
+    <lineargradient id="rainbowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: #FF0000;"></stop>
+      <stop offset="16.6%" style="stop-color: #FF7F00;"></stop>
+      <stop offset="33.3%" style="stop-color: #FFFF00;"></stop>
+      <stop offset="50%" style="stop-color: #00FF00;"></stop>
+      <stop offset="66.6%" style="stop-color: #0000FF;"></stop>
+      <stop offset="83.3%" style="stop-color: #4B0082;"></stop>
+      <stop offset="100%" style="stop-color: #8B00FF;"></stop>
+    </lineargradient>
+  </defs>
+
+  <!-- Nucleotides (A, T, G, C) moving along a wave path -->
+  <text class="nucleotide" x="0" y="100">A</text>
+  <text class="nucleotide" x="50" y="100">T</text>
+  <text class="nucleotide" x="100" y="100">G</text>
+  <text class="nucleotide" x="150" y="100">C</text>
+  <text class="nucleotide" x="200" y="100">A</text>
+  <text class="nucleotide" x="250" y="100">T</text>
+  <text class="nucleotide" x="300" y="100">G</text>
+  <text class="nucleotide" x="350" y="100">C</text>
+
 </svg>
 
         
