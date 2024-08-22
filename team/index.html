@@ -381,21 +381,29 @@
       animation-duration: 2s;
       animation-timing-function: ease;
       animation-fill-mode: forwards;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 12px;
     }
     #ring_1 {
       animation-name: ring_1;
+      fill: #ff0000; /* Red */
     }
     #ring_2 {
       animation-name: ring_2;
+      fill: #ff7f00; /* Orange */
     }
     #ring_3 {
       animation-name: ring_3;
+      fill: #ffff00; /* Yellow */
     }
     #ring_4 {
       animation-name: ring_4;
+      fill: #00ff00; /* Green */
     }
     #ring_5 {
       animation-name: ring_5;
+      fill: #0000ff; /* Blue */
     }
     @keyframes ring_1 {
       0% {
@@ -492,34 +500,31 @@
       }
     }
   </style>
-  
-  <!-- Letters instead of boxes -->
+
   <g transform="translate(-22,0)">
     <g class="ring" id="ring_1">
-      <text x="-40" y="-20" font-size="12" fill="#00bcd4" font-family="Arial">A</text>
+      <text x="-41" y="-18" fill="#ff0000">A</text>
     </g>
     <g class="ring" id="ring_2">
-      <text x="-25" y="-35" font-size="12" fill="#00bcd4" font-family="Arial">T</text>
+      <text x="-23" y="-38" fill="#ff7f00">T</text>
     </g>
     <g class="ring" id="ring_3">
-      <text x="0" y="-45" font-size="12" fill="#009688" font-family="Arial">G</text>
+      <text x="-2" y="-44" fill="#ffff00">G</text>
     </g>
     <g class="ring" id="ring_4">
-      <text x="25" y="-35" font-size="12" fill="#009688" font-family="Arial">C</text>
+      <text x="18" y="-41" fill="#00ff00">C</text>
     </g>
     <g class="ring" id="ring_5">
-      <text x="40" y="-20" font-size="12" fill="#4caf50" font-family="Arial">A</text>
+      <text x="38" y="-23" fill="#0000ff">A</text>
     </g>
   </g>
 
   <g class="text" id="text_1">
-    <!-- Add your primary text here -->
     <g transform="translate(16.5,0) scale(1.65)" fill="#ffffff">
       <text x="0" y="0" font-size="12" font-family="Arial">Stranger</text>
     </g>
   </g>
   <g class="text" id="text_2">
-    <!-- Add your secondary text here -->
     <g transform="translate(37.15,21) scale(1.5)" fill="#ffffff">
       <text x="0" y="0" font-size="12" font-family="Arial">Lab</text>
     </g>
