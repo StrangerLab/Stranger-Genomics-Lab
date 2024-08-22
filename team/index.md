@@ -18,7 +18,7 @@ nav:
 
 ## Junior faculty
 
-**Mark Applebaum, MD**Current Position: Associate Professor, University of Chicago, Chicago, IL. https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
+**Mark Applebaum, MD** Current Position: Associate Professor, University of Chicago, Chicago, IL. https://pediatrics.uchicago.edu/faculty/mark-applebaum-md
 
 ## Postdoctoral Fellows
 
@@ -28,7 +28,7 @@ nav:
 
 **Patrick Evans, PhD.** Current Position: Research Instructor, Vanderbilt University Medical Center, Nashville, TN. https://medicine.vumc.org/department-directory/Patrick-Evans
 
-**Wenndy Hernandez, PhD** Current Position: Professor, School of Public Health, University of Pittsburgh, Pittsburgh, PA. https://www.publichealth.pitt.edu/directory/wenndy-hernandez
+**Wenndy Hernandez, PhD** Current Position: Assistant Professor, School of Public Health, University of Pittsburgh, Pittsburgh, PA. https://www.publichealth.pitt.edu/directory/wenndy-hernandez
 
 **Ekaterina Khramtsova, PhD** Current Position: Associate Director of AI/ML, Didactic.AI, Seattle, WA. https://didactic.ai/, Previously Senior Scientist at Janssen Pharmaceuticals, Philadelphia, PA.
 
@@ -54,17 +54,27 @@ nav:
 
 **Raphael Heldman** Current Position: PhD Candidate, Max Planck Florida Institute for Neuroscience, Jupiter, FL
 
-**Elizabeth Lipschultz** Current Position: Software Engineer, CancerLinQ, Salt Lake City, Salt Lake, UT. 
+**Elizabeth Lipschultz, MS** Current Position: Software Engineer, CancerLinQ, Salt Lake City, Salt Lake, UT. 
 
-**Christina Andreou** Current Position: Medical Student at Jacobs School of Medicine and Biomedical Sciences, University of Buffalo, Buffalo, NY. 
+**Christina Andreou, BA** Current Position: Medical Student at Jacobs School of Medicine and Biomedical Sciences, University of Buffalo, Buffalo, NY. 
 
 **Evan Beiter, MD, MBA** Current Position: Resident Physician, Stanford Medicine, Palo Alto, CA. 
 
-**Dahlia Walters** Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA. 
+**Dahlia Walters, BS** Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA. 
 
-**Jordyne Prussak** Current Position: Engineering and Applied Sciences MBA Candidate at Columbia Business School and MA at Columbia University’s Fu Foundation School of Engineering and Applied Science (Dual MBA x MA), Columbia University, New York, NY
+**Jordyne Prussak, BA** Current Position: Engineering and Applied Sciences MBA Candidate at Columbia Business School and MA at Columbia University’s Fu Foundation School of Engineering and Applied Science (Dual MBA x MA), Columbia University, New York, NY
 
 ## Lab staff
+
+**Lorenzo L. Pesce, PhD.** Current position: Research Assistant Professor, Northwestern University Feinberg School of Medicine, Chicago, IL
+
+**Ariel Halle, BA.** Current position: Northwestern University, Feinberg School of Medicine, Chicago, IL
+
+**Corey Holgren, BA:** Current position: Senior Research Technologist, Northwestern University Feinberg School of Medicine, Chicago, IL
+
+**Alec D. Victorsen, MS.** Current position: Researcher, University of Minnesota, Minneapolis, MN
+
+**Mary Kasparian, MS.** Current position: Web Developer & UX/UI Designer, Chicago, IL https://www.marykasparian.com/
 
 **Marian Fernando, MS.** Current Position: Regulatory Affairs Manager, University of Chicago, Chicago, IL
 
@@ -78,7 +88,7 @@ nav:
 
 **Andrew Skol, PhD** Current Position: Bioinformatics Scientist, Ann & Robert H. Lurie Children’s Hospital, Chicago, IL
 
-**Dahlia Walters** Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA.
+**Dahlia Walters, BS** Current Position: APHL-CDC Public Health Laboratory Infectious Disease Fellow, Washington State Department of Health, Seattle, WA.
 
 
 
