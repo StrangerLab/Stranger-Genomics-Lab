@@ -8,7 +8,7 @@ We are an innovative statistical genetics research laboratory in the Department 
 
 {%
   include figure.html
-  image="images/group-photo-1.jpg"
+  image="images/Anschutz.jpg"
   width="60%"
 %}
 
