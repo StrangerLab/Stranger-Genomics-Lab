@@ -43,7 +43,7 @@ We are an innovative statistical genetics research laboratory in the Department 
 
 {%
   include feature.html
-  image="images/dna.jpg"
+  image="images/DALL·E 2023-04-11 10.57.46 - dna helix in style of Starry Night.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -70,7 +70,6 @@ Our team is composed of a diverse group of scientists and researchers specializi
 
 {%
   include feature.html
-  image="images/photo.jpg"
   link="team"
   title="Our Team"
   text=text
