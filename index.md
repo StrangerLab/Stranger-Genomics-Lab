@@ -9,7 +9,7 @@ We are an innovative statistical genetics research laboratory in the Department 
 {%
   include figure.html
   image="images/Anschutz.jpg"
-  width="60%"
+  width="100%"
 %}
 
 {% include section.html %}
