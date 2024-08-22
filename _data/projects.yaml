@@ -1,12 +1,23 @@
 - title: Elucidating the phenome-wide impact of sex and gender on disease
   subtitle: 
   group: featured
-  image: images/photo.jpg
+  image: images/sex_GTEx_wordcloud.jpg
   description: Understanding the biological underpinnings leading to sex differences observed in heritable human diseases is critical for developing precision medicine approaches that work equally well in males and females. Equally as important are gender-related exposures including socioeconomic position and sexual assault-trauma which have tremendous and widespread effects on disease risk throughout the lifespan. This project aims to create new knowledge of how sex and gender-related exposures impact disease and how they modify genetic risk for disease across the entire medical phenome, including over 1,000 clinically relevant biomarkers. Collaboration with Dr. Lea K. Davis at Mt. Sinai/Vanderbilt.
 
 - title: Genetic mechanisms underlying sexual dimorphism in cancer and response to therapy
   subtitle: 
   group: featured
-  image: images/photo.jpg
+  image: images/sex_GTEx_wordcloud.jpg
   description: Sex differences in the incidence, age of onset, progression, and response to treatment in cancer are well documented. This project aims to understand how genetics contributes to observed cancer differences between men and women across a wide spectrum of cancers, with the goal of generating knowledge that can have a clinical impact. The project aims to 1) Characterize sex differences at the molecular level in tumors derived from male and female patients, 2) Characterize sex differences in the contribution of inherited genetics to cancer risk, and 3) Discover mechanisms contributing to sex differences in response to cancer therapy. Collaboration with Dr. R. Stephanie Huang at University of Minnesota.
 
+- title: Genomics of Post-Operative Atrial Fibrillation After Cardiac Surgery
+  subtitle: 
+  group: more
+  image: images/heart.jpeg
+  description: Post-operative atrial fibrillation (poAF) is the most common complication following cardiac surgery (~30%), and patients who experience poAF are more likely to suffer a number of adverse outcomes, including longer stays in the ICU and increased mortality. To improve patient outcomes, we have collected left atrial tissue from patients who are in normal sinus rhythm as they undergo cardiac surgery, and then are working to identify gene-expression and epigenomic differences in this tissue between patients that subsequently do and do not develop poAF. We will then perform a functional validation of variants causing these changes in cardiac muscle stem cells. Successful completion of this study will identify new pharmacological targets for preventing and treating poAF, potentially improving the lives of millions of patients. Collaboration with Dr. Jochen (Danny) Muehlschlegel at Johns Hopkins.
+
+- title: Transcriptomic Analysis of left ventricular gene expression
+  subtitle: 
+  group: more
+  image: images/heart.jpeg
+  description: Ischemic heart disease, the leading cause of mortality worldwide and at $475 billion/year also the costliest disease in the US, is highly heritable. Ischemia initiates specific biological processes that are highly dependent on genetic, transcriptional, and translational variation. We have built a unique human left ventricle tissue sample bank from patients experiencing myocardial ischemia while undergoing cardiac surgery with cardiopulmonary bypass (CPB). Using this resource, we are characterizing the transcriptional response to ischemia and identifying expression quantitative trait loci (eQTLs) and defining links to myocardial injury in clinical cohorts. Collaboration with Dr. Jochen (Danny) Muehlschlegel at Johns Hopkins.
