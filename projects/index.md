@@ -21,6 +21,5 @@ nav:
 
 ## More
 
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
+{% include list.html component="card" data="projects" filters="group:more" style="small" %}
 
-{% include section.html %}
