@@ -2,15 +2,31 @@
   <style>
     .helix {
       stroke-width: 2;
-      stroke: #4a90e2;
+      stroke: #00BFFF;
       fill: none;
     }
     .base-pair {
       stroke-width: 2;
-      stroke: #e94e77;
+      stroke: #FF6347;
+      opacity: 0.8;
     }
     .circle {
-      fill: #f8b195;
+      fill: #00FF7F;
+      opacity: 0.8;
+    }
+    .base-pair, .circle {
+      animation: move 4s infinite linear;
+    }
+    @keyframes move {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-60px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
     }
   </style>
   <!-- Left strand of the helix -->

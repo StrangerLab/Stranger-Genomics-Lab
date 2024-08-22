@@ -62,10 +62,10 @@
 
   <meta name="author" content="jane-smith">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2024-08-22T11:24:25+00:00">
+  <meta property="og:updated_time" content="2024-08-22T11:30:00+00:00">
   <meta property="article:published_time" content="2021-09-30T00:00:00+00:00">
-  <meta property="article:modified_time" content="2024-08-22T11:24:25+00:00">
-  <meta name="revised" content="2024-08-22T11:24:25+00:00">
+  <meta property="article:modified_time" content="2024-08-22T11:30:00+00:00">
+  <meta name="revised" content="2024-08-22T11:30:00+00:00">
 
 
 <script type="application/ld+json">
@@ -75,7 +75,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Example post 2" },
       "datePublished": "2021-09-30T00:00:00+00:00",
-      "dateModified": "2024-08-22T11:24:25+00:00",
+      "dateModified": "2024-08-22T11:30:00+00:00",
     
     "name": "Example post 2",
     "description": "",
@@ -334,15 +334,31 @@
   <style>
     .helix {
       stroke-width: 2;
-      stroke: #4a90e2;
+      stroke: #00BFFF;
       fill: none;
     }
     .base-pair {
       stroke-width: 2;
-      stroke: #e94e77;
+      stroke: #FF6347;
+      opacity: 0.8;
     }
     .circle {
-      fill: #f8b195;
+      fill: #00FF7F;
+      opacity: 0.8;
+    }
+    .base-pair, .circle {
+      animation: move 4s infinite linear;
+    }
+    @keyframes move {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-60px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
     }
   </style>
   <!-- Left strand of the helix -->
