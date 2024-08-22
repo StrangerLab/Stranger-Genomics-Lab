@@ -65,7 +65,7 @@ Our team is composed of a diverse group of scientists and researchers specializi
   flip=true
   style="bare"
 %}
-{:.center}
+
 {% endcapture %}
 {%
   include feature.html
