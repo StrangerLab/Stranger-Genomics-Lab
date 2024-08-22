@@ -330,35 +330,31 @@
       fill: none;
       stroke: #4a90e2;
       stroke-width: 2;
-      animation: rotate 8s infinite linear;
     }
-    .base-pair {
+    .nucleotide {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
       fill: #ff6347;
-      animation: rotate 4s infinite linear reverse;
+      animation: rotate 4s infinite linear;
     }
     @keyframes rotate {
       from {
-        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(70px) rotate(0deg);
       }
       to {
-        transform: rotate(360deg);
+        transform: rotate(360deg) translateX(70px) rotate(-360deg);
       }
     }
   </style>
 
   <!-- Circular DNA-like structure -->
   <circle class="circle-helix" cx="100" cy="100" r="70"></circle>
-  <circle class="circle-helix" cx="100" cy="100" r="50"></circle>
-  
-  <!-- Base pairs -->
-  <circle class="base-pair" cx="100" cy="30" r="5"></circle>
-  <circle class="base-pair" cx="100" cy="170" r="5"></circle>
-  <circle class="base-pair" cx="30" cy="100" r="5"></circle>
-  <circle class="base-pair" cx="170" cy="100" r="5"></circle>
-  <circle class="base-pair" cx="150" cy="50" r="5"></circle>
-  <circle class="base-pair" cx="50" cy="150" r="5"></circle>
-  <circle class="base-pair" cx="150" cy="150" r="5"></circle>
-  <circle class="base-pair" cx="50" cy="50" r="5"></circle>
+
+  <!-- Nucleotides (A, T, C, G) -->
+  <text class="nucleotide" x="100" y="30">A</text>
+  <text class="nucleotide" x="100" y="30" style="animation-delay: 1s;">T</text>
+  <text class="nucleotide" x="100" y="30" style="animation-delay: 2s;">C</text>
+  <text class="nucleotide" x="100" y="30" style="animation-delay: 3s;">G</text>
 </svg>
 
         
