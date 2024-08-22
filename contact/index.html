@@ -372,6 +372,61 @@
 <header class="background" style="--image: url('/Stranger-Genomics-Lab/images/humangenetics.jpg')" data-dark="true">
   <a href="/Stranger-Genomics-Lab/" class="home">
     
+      <span class="logo">
+        
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200">
+  <style>
+    .circle {
+      fill: none;
+      stroke: #4caf50;
+      stroke-width: 8;
+    }
+    .dna {
+      fill: none;
+      stroke: #009688;
+      stroke-width: 4;
+      stroke-linecap: round;
+    }
+    .text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      fill: #009688;
+      text-anchor: middle;
+    }
+    .stars {
+      fill: #ffeb3b;
+      opacity: 0.8;
+    }
+  </style>
+
+  <!-- Circular Base -->
+  <circle class="circle" cx="100" cy="100" r="80"></circle>
+
+  <!-- DNA Strand -->
+  <path class="dna" d="M 60 150 Q 100 50 140 150 Q 100 50 60 150"></path>
+
+  <!-- Small Stars at Intersections -->
+  <g transform="translate(85,75)">
+    <polygon class="stars" points="5,1 6,4 9,4 6.5,6 7.5,9 5,7 2.5,9 3.5,6 1,4 4,4"></polygon>
+  </g>
+  <g transform="translate(115,75)">
+    <polygon class="stars" points="5,1 6,4 9,4 6.5,6 7.5,9 5,7 2.5,9 3.5,6 1,4 4,4"></polygon>
+  </g>
+  <g transform="translate(85,125)">
+    <polygon class="stars" points="5,1 6,4 9,4 6.5,6 7.5,9 5,7 2.5,9 3.5,6 1,4 4,4"></polygon>
+  </g>
+  <g transform="translate(115,125)">
+    <polygon class="stars" points="5,1 6,4 9,4 6.5,6 7.5,9 5,7 2.5,9 3.5,6 1,4 4,4"></polygon>
+  </g>
+
+  <!-- Text -->
+  <text class="text" x="100" y="180">StrangerLab</text>
+</svg>
+
+        
+      </span>
+    
     
       <span class="title-text" data-tooltip="Home">
         
