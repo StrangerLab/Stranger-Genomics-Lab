@@ -1,12 +1,12 @@
 ---
-title: Research
+title: Publications
 nav:
   order: 1
   tooltip: Published works
 redirect_from: /publications
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
 Utilizing state-of-the-art computational methodologies, we explore the intricate ways sex influences the genetic architecture of complex traits and diseases. By integrating multi-omics data, we aim to pinpoint causal genes and pathways, enhancing our understanding of disease biology and identifying therapeutic targets within a 'sex-aware' framework. Our research capitalizes on our deep expertise in statistical genetics, genomics, machine learning, and sex differences, pushing the boundaries of precision medicine to improve health outcomes for all.
 
