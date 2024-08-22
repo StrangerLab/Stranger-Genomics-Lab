@@ -62,10 +62,10 @@
 
   <meta name="author" content="john-doe">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2024-08-22T11:45:14+00:00">
+  <meta property="og:updated_time" content="2024-08-22T11:47:49+00:00">
   <meta property="article:published_time" content="2023-02-23T00:00:00+00:00">
-  <meta property="article:modified_time" content="2024-08-22T11:45:14+00:00">
-  <meta name="revised" content="2024-08-22T11:45:14+00:00">
+  <meta property="article:modified_time" content="2024-08-22T11:47:49+00:00">
+  <meta name="revised" content="2024-08-22T11:47:49+00:00">
 
 
 <script type="application/ld+json">
@@ -75,7 +75,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Example post 3" },
       "datePublished": "2023-02-23T00:00:00+00:00",
-      "dateModified": "2024-08-22T11:45:14+00:00",
+      "dateModified": "2024-08-22T11:47:49+00:00",
     
     "name": "Example post 3",
     "description": "",
@@ -337,24 +337,30 @@
       font-size: 24px;
       font-weight: bold;
       fill: url(#rainbowGradient);
-      animation: wave 5s infinite linear, pop 1.5s infinite ease-in-out;
+      animation: wave 5s infinite ease-in-out, pop 1.5s infinite ease-in-out;
+    }
+
+    .sparkle {
+      fill: gold;
+      opacity: 0;
+      animation: sparkle 2s infinite ease-in-out;
     }
 
     @keyframes wave {
       0% {
-        transform: translateX(0) translateY(50px);
+        transform: translateX(0) translateY(100px);
       }
       25% {
-        transform: translateX(50px) translateY(0px);
+        transform: translateX(100px) translateY(50px);
       }
       50% {
-        transform: translateX(150px) translateY(100px);
+        transform: translateX(200px) translateY(100px);
       }
       75% {
-        transform: translateX(250px) translateY(0px);
+        transform: translateX(300px) translateY(50px);
       }
       100% {
-        transform: translateX(350px) translateY(50px);
+        transform: translateX(400px) translateY(100px);
       }
     }
 
@@ -367,6 +373,16 @@
       }
     }
 
+    @keyframes sparkle {
+      0%, 100% {
+        opacity: 0;
+        transform: scale(0.5);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
   </style>
 
   <!-- Rainbow gradient for the letters -->
@@ -384,14 +400,17 @@
 
   <!-- Nucleotides (A, T, G, C) moving along a wave path -->
   <text class="nucleotide" x="0" y="100">A</text>
-  <text class="nucleotide" x="50" y="100">T</text>
-  <text class="nucleotide" x="100" y="100">G</text>
-  <text class="nucleotide" x="150" y="100">C</text>
-  <text class="nucleotide" x="200" y="100">A</text>
-  <text class="nucleotide" x="250" y="100">T</text>
-  <text class="nucleotide" x="300" y="100">G</text>
-  <text class="nucleotide" x="350" y="100">C</text>
+  <text class="nucleotide" x="100" y="100">T</text>
+  <text class="nucleotide" x="200" y="100">G</text>
+  <text class="nucleotide" x="300" y="100">C</text>
+  <text class="nucleotide" x="400" y="100">A</text>
 
+  <!-- Sparkles -->
+  <circle class="sparkle" cx="50" cy="60" r="5"></circle>
+  <circle class="sparkle" cx="150" cy="120" r="5"></circle>
+  <circle class="sparkle" cx="250" cy="80" r="5"></circle>
+  <circle class="sparkle" cx="350" cy="60" r="5"></circle>
+  <circle class="sparkle" cx="450" cy="120" r="5"></circle>
 </svg>
 
         
