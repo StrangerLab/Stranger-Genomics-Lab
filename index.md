@@ -70,7 +70,7 @@ Our team is composed of a diverse group of scientists and researchers specializi
 {%
   include feature.html
   image="images/team.jpg"
-  link="projects"
+  link="team"
   title="Our Team"
   flip=true
   style="bare"
