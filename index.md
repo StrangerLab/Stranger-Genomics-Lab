@@ -10,7 +10,7 @@ We are an innovative statistical genetics research laboratory in the Department 
 
 {% capture text %}
 
-Unveiling Sexual Dimorphism Through Human Genetic Variation
+Explore our publications to know about our research.
 
 {%
   include button.html
@@ -33,7 +33,7 @@ Unveiling Sexual Dimorphism Through Human Genetic Variation
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Read about few of our ongoing projects.
 
 {%
   include button.html
