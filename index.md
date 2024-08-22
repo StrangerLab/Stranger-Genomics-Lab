@@ -9,8 +9,6 @@ We are an innovative statistical genetics research laboratory in the Department 
 
 {% capture text %}
 
-Explore our publications to know about our research.
-
 {%
   include button.html
   link="research"
@@ -24,15 +22,13 @@ Explore our publications to know about our research.
 
 {%
   include feature.html
-  image="images/Sexual_Dimorphism_in_Human_Genetic_Variation_Corrected.jpeg"
+  image="images/DALL·E 2023-04-11 10.57.46 - dna helix in style of Starry Night.png"
   link="research"
-  title="Our Research"
+  title="Our Publications"
   text=text
 %}
 
 {% capture text %}
-
-Read about few of our ongoing projects.
 
 {%
   include button.html
@@ -47,7 +43,7 @@ Read about few of our ongoing projects.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/dna.jpg"
   link="projects"
   title="Our Projects"
   flip=true
