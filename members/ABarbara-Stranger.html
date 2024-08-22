@@ -324,58 +324,39 @@
         
           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200">
   <style>
-    .helix {
-      stroke-width: 2;
-      stroke: #00BFFF;
+    .circle-helix {
       fill: none;
+      stroke: #4a90e2;
+      stroke-width: 2;
+      animation: rotate 8s infinite linear;
     }
     .base-pair {
-      stroke-width: 2;
-      stroke: #FF6347;
-      opacity: 0.8;
+      fill: #ff6347;
+      animation: rotate 4s infinite linear reverse;
     }
-    .circle {
-      fill: #00FF7F;
-      opacity: 0.8;
-    }
-    .base-pair, .circle {
-      animation: move 4s infinite linear;
-    }
-    @keyframes move {
-      0% {
-        transform: translateY(0px);
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
       }
-      50% {
-        transform: translateY(-60px);
-      }
-      100% {
-        transform: translateY(0px);
+      to {
+        transform: rotate(360deg);
       }
     }
   </style>
-  <!-- Left strand of the helix -->
-  <path class="helix" d="M 50,20 C 60,60 40,140 50,180"></path>
-  <path class="helix" d="M 50,180 C 60,140 40,60 50,20"></path>
+
+  <!-- Circular DNA-like structure -->
+  <circle class="circle-helix" cx="100" cy="100" r="70"></circle>
+  <circle class="circle-helix" cx="100" cy="100" r="50"></circle>
   
-  <!-- Right strand of the helix -->
-  <path class="helix" d="M 150,20 C 140,60 160,140 150,180"></path>
-  <path class="helix" d="M 150,180 C 140,140 160,60 150,20"></path>
-
   <!-- Base pairs -->
-  <line class="base-pair" x1="50" y1="30" x2="150" y2="30"></line>
-  <line class="base-pair" x1="50" y1="70" x2="150" y2="70"></line>
-  <line class="base-pair" x1="50" y1="110" x2="150" y2="110"></line>
-  <line class="base-pair" x1="50" y1="150" x2="150" y2="150"></line>
-
-  <!-- Decorative circles -->
-  <circle class="circle" cx="50" cy="30" r="5"></circle>
-  <circle class="circle" cx="150" cy="30" r="5"></circle>
-  <circle class="circle" cx="50" cy="70" r="5"></circle>
-  <circle class="circle" cx="150" cy="70" r="5"></circle>
-  <circle class="circle" cx="50" cy="110" r="5"></circle>
-  <circle class="circle" cx="150" cy="110" r="5"></circle>
-  <circle class="circle" cx="50" cy="150" r="5"></circle>
-  <circle class="circle" cx="150" cy="150" r="5"></circle>
+  <circle class="base-pair" cx="100" cy="30" r="5"></circle>
+  <circle class="base-pair" cx="100" cy="170" r="5"></circle>
+  <circle class="base-pair" cx="30" cy="100" r="5"></circle>
+  <circle class="base-pair" cx="170" cy="100" r="5"></circle>
+  <circle class="base-pair" cx="150" cy="50" r="5"></circle>
+  <circle class="base-pair" cx="50" cy="150" r="5"></circle>
+  <circle class="base-pair" cx="150" cy="150" r="5"></circle>
+  <circle class="base-pair" cx="50" cy="50" r="5"></circle>
 </svg>
 
         
