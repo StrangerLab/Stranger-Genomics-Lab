@@ -53,7 +53,7 @@ We aim to pinpoint causal genes and pathways, enhancing our understanding of dis
   style="bare"
   text=text
 %}
-
+{:.center}
 {% capture text %}
 Our team is composed of a diverse group of scientists and researchers specializing in computational genomics. 
 
@@ -62,7 +62,7 @@ Our team is composed of a diverse group of scientists and researchers specializi
   link="team"
   text="Meet our team"
   icon="fa-solid fa-arrow-right"
-  flip=true
+  flip=false
   style="bare"
 %}
 
@@ -72,7 +72,7 @@ Our team is composed of a diverse group of scientists and researchers specializi
   image="images/team.jpg"
   link="team"
   title="Our Team"
-  flip=true
+  flip=false
   style="bare"
   text=text
 %}
