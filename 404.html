@@ -327,7 +327,8 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewbox="-75 -50 150 100">
   <style>
     .ring,
-    .text {
+    .text,
+    .star {
       animation-duration: 2s;
       animation-timing-function: ease;
       animation-fill-mode: forwards;
@@ -347,89 +348,131 @@
     #ring_5 {
       animation-name: ring_5;
     }
+    #star_1 {
+      animation-name: star_1;
+    }
+    #star_2 {
+      animation-name: star_2;
+    }
+    #star_3 {
+      animation-name: star_3;
+    }
     @keyframes ring_1 {
       0% {
         opacity: 0;
-        transform: rotate(0deg) translateY(50px);
+        transform: scale(0.5) translateY(50px);
       }
-      40% {
-        opacity: 0;
+      50% {
+        opacity: 1;
+        transform: scale(1.2) translateY(0);
       }
       100% {
         opacity: 1;
-        transform: rotate(0deg) translateY(0px);
+        transform: scale(1) translateY(0);
       }
     }
     @keyframes ring_2 {
       0% {
         opacity: 0;
-        transform: rotate(0deg) translateY(50px);
+        transform: scale(0.5) translateY(50px);
       }
-      40% {
-        opacity: 0;
+      50% {
+        opacity: 1;
+        transform: scale(1.2) translateY(0);
       }
       100% {
         opacity: 1;
-        transform: rotate(0deg) translateY(0px);
+        transform: scale(1) translateY(0);
       }
     }
     @keyframes ring_3 {
       0% {
         opacity: 0;
-        transform: rotate(0deg) translateY(50px);
+        transform: scale(0.5) translateY(50px);
       }
-      40% {
-        opacity: 0;
+      50% {
+        opacity: 1;
+        transform: scale(1.2) translateY(0);
       }
       100% {
         opacity: 1;
-        transform: rotate(0deg) translateY(0px);
+        transform: scale(1) translateY(0);
       }
     }
     @keyframes ring_4 {
       0% {
         opacity: 0;
-        transform: rotate(0deg) translateY(50px);
+        transform: scale(0.5) translateY(50px);
       }
-      40% {
-        opacity: 0;
+      50% {
+        opacity: 1;
+        transform: scale(1.2) translateY(0);
       }
       100% {
         opacity: 1;
-        transform: rotate(0deg) translateY(0px);
+        transform: scale(1) translateY(0);
       }
     }
     @keyframes ring_5 {
       0% {
         opacity: 0;
-        transform: rotate(0deg) translateY(50px);
+        transform: scale(0.5) translateY(50px);
       }
-      40% {
-        opacity: 0;
+      50% {
+        opacity: 1;
+        transform: scale(1.2) translateY(0);
       }
       100% {
         opacity: 1;
-        transform: rotate(0deg) translateY(0px);
+        transform: scale(1) translateY(0);
+      }
+    }
+    @keyframes star_1 {
+      0% {
+        opacity: 0;
+        transform: scale(0) rotate(0deg);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.5) rotate(180deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+      }
+    }
+    @keyframes star_2 {
+      0% {
+        opacity: 0;
+        transform: scale(0) rotate(0deg);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.5) rotate(180deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+      }
+    }
+    @keyframes star_3 {
+      0% {
+        opacity: 0;
+        transform: scale(0) rotate(0deg);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.5) rotate(180deg);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
       }
     }
     #text_1 {
       animation-name: text_1;
     }
-    #text_2 {
-      animation-name: text_2;
-    }
     @keyframes text_1 {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-    @keyframes text_2 {
       0% {
         opacity: 0;
       }
@@ -443,27 +486,27 @@
   </style>
   <g transform="translate(0,-25)">
     <g class="ring" id="ring_1">
-      <path fill="none" stroke="#ff0000" stroke-width="5.5" d="
+      <path fill="none" stroke="#ff9999" stroke-width="5.5" d="
           M -70 25 A 70 70 0 0 1 70 25
         "></path>
     </g>
     <g class="ring" id="ring_2">
-      <path fill="none" stroke="#ff7f00" stroke-width="5.5" d="
+      <path fill="none" stroke="#ff6666" stroke-width="5.5" d="
           M -60 20 A 60 60 0 0 1 60 20
         "></path>
     </g>
     <g class="ring" id="ring_3">
-      <path fill="none" stroke="#ffff00" stroke-width="5.5" d="
+      <path fill="none" stroke="#ff3333" stroke-width="5.5" d="
           M -50 15 A 50 50 0 0 1 50 15
         "></path>
     </g>
     <g class="ring" id="ring_4">
-      <path fill="none" stroke="#00ff00" stroke-width="5.5" d="
+      <path fill="none" stroke="#ff0000" stroke-width="5.5" d="
           M -40 10 A 40 40 0 0 1 40 10
         "></path>
     </g>
     <g class="ring" id="ring_5">
-      <path fill="none" stroke="#0000ff" stroke-width="5.5" d="
+      <path fill="none" stroke="#cc0000" stroke-width="5.5" d="
           M -30 5 A 30 30 0 0 1 30 5
         "></path>
     </g>
@@ -473,6 +516,15 @@
     <g aria-label="StrangerLab" transform="translate(0,30) scale(1.65)" fill="#ffffff" text-anchor="middle">
       <text x="0" y="0" font-size="12">StrangerLab</text>
     </g>
+  </g>
+  <g class="star" id="star_1" transform="translate(-40,-40)">
+    <polygon points="2,0 3,1.5 5,2 3.5,3.5 4,5 2,4 0,5 0.5,3.5 -1,2 1,1.5" fill="white"></polygon>
+  </g>
+  <g class="star" id="star_2" transform="translate(40,-35)">
+    <polygon points="2,0 3,1.5 5,2 3.5,3.5 4,5 2,4 0,5 0.5,3.5 -1,2 1,1.5" fill="white"></polygon>
+  </g>
+  <g class="star" id="star_3" transform="translate(0,-50)">
+    <polygon points="2,0 3,1.5 5,2 3.5,3.5 4,5 2,4 0,5 0.5,3.5 -1,2 1,1.5" fill="white"></polygon>
   </g>
 </svg>
 
