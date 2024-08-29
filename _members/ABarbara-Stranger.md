@@ -2,7 +2,7 @@
 name: Dr. Barbara Stranger
 image: images/Headshot_Stranger.jpg
 description: Principal Investigator
-role: Geneticist
+role: pi
 links:
   email: barbara.stranger@northwestern.edu
   twitter: be_stranger
