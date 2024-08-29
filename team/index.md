@@ -12,6 +12,9 @@ nav:
 # Current Lab Members
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
+
+{% include section.html %}
+
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
 # Lab Alumni
