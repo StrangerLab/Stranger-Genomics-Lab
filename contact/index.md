@@ -12,7 +12,14 @@ We are a geographically distributed team that is headquartered on the 6th Floor 
 
 {%
   include figure.html
-  image="images/health-ai-logo.png"
+  image="images/DBMIlogo.JPG"
+  link="https://medschool.cuanschutz.edu/"
+  width="400px"
+%}
+
+{%
+  include figure.html
+  image="images/Ludeman.JPG"
   link="https://medschool.cuanschutz.edu/"
   width="400px"
 %}
