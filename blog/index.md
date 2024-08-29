@@ -17,7 +17,7 @@ We're looking for postdoctoral fellows, statistical geneticists, and data scient
 
 {% include button.html icon="fa-solid fa-book-open" text="Post-Doctoral Fellow" link="https://cu.taleo.net/careersection/2/jobdetail.ftl?job=34542&lang=en" %}
 
-{% include button.html icon="fa-solid fa-book-open" text="Research Technician" link="https://cu.taleo.net/careersection/2/jobdetail.ftl?job=34388&lang=en" %}
+{% include button.html icon="fa-solid fa-book-open" text="Program Manager" link="https://cu.taleo.net/careersection/2/jobdetail.ftl?job=34703&lang=en" %}
 
 
 
