@@ -1,6 +1,6 @@
 ---
 name: Dr. Jacklyn Ashmus
-image: images/jackie.jpeg
+image: images/photo.jpeg
 description: Postdoctoral Scientist
 role: Scientist
 ---
