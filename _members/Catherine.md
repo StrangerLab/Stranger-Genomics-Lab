@@ -1,8 +1,8 @@
 ---
-name: Catherine Stanhope, MS. 
-image: images/photo.jpg
-description: Senior Research Technologist
-role: Senior Research Technologist
+name: Iain Konigsberg, PhD. 
+image: images/Iain.jpg
+description: Research Scientist
+role: Research Scientist
 links:
   home-page: 
   github: 
