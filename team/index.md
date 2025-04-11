@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-**Our team is composed of a group of scientists and researchers specializing in computational genomics. With a strong emphasis on integrating computational methods with genomics research, our lab team includes bioinformaticians, geneticists, data scientists, and research technicians.**
+**Our team is composed of a group of scientists and researchers specializing in computational genomics. With a strong emphasis on integrating computational methods with genomics research, our lab includes bioinformaticians, geneticists, data scientists, and research technicians.**
 
 # Current Lab Members
 
