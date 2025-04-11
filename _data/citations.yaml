@@ -1,5 +1,39 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1093/neuonc/noae207
+  title: Sex differences in the molecular profile of adult diffuse glioma are shaped
+    by IDH status and tumor microenvironment
+  authors:
+  - Yingbo Huang
+  - Yuting Shan
+  - Weijie Zhang
+  - Christina Printzis
+  - Lorenzo Pesce
+  - Danielle Stover
+  - Catherine Stanhope
+  - Barbara E Stranger
+  - Rong Stephanie Huang
+  publisher: Neuro-Oncology
+  date: '2024-10-05'
+  link: https://doi.org/g7dzrc
+  orcid: 0000-0001-9021-7331
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.11.08.622657
+  title: Uncovering hidden gene-trait patterns through biclustering analysis of the
+    UK Biobank
+  authors:
+  - Milton Pividori
+  - Suraju Sadeeq
+  - Arjun Krishnan
+  - Barbara E. Stranger
+  - Christopher R. Gignoux
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-11-11'
+  link: https://doi.org/g8q8t2
+  orcid: 0000-0001-9021-7331
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.cell.2023.04.014
   title: Quality control and analytic best practices for testing genetic models of
     sex differences in large populations
@@ -1273,7 +1307,7 @@
   - "Simon Tavar\xE9"
   - Matthew E Hurles
   publisher: Genome Biology
-  date: '2007-01-01'
+  date: '2007-10-25'
   link: https://doi.org/chqdj6
   orcid: 0000-0001-9021-7331
   plugin: orcid.py
@@ -1291,7 +1325,7 @@
   - Matthew E Hurles
   - Emmanouil T Dermitzakis
   publisher: Genome Biology
-  date: '2007-01-01'
+  date: '2007-06-19'
   link: https://doi.org/bkjpdc
   orcid: 0000-0001-9021-7331
   plugin: orcid.py
