@@ -1,1 +1,1 @@
-Sitemap: https://strangerlab.github.io/Stranger-Genomics-Lab/sitemap.xml
+Sitemap: https://strangerlabwebsite.github.io/Stranger-Genomics-Lab/sitemap.xml
