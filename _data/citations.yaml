@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2025.06.09.658757
+  title: A network model for patient-derived drug response in breast cancer integrating
+    multi-omics datasets
+  authors:
+  - Banabithi Bose
+  - Barbara Stranger
+  - Serdar Bozdag
+  publisher: openRxiv
+  date: '2025-06-12'
+  link: https://doi.org/g9qcrj
+  orcid: 0000-0001-9021-7331
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1093/neuonc/noae207
   title: Sex differences in the molecular profile of adult diffuse glioma are shaped
     by IDH status and tumor microenvironment
@@ -28,7 +41,7 @@
   - Arjun Krishnan
   - Barbara E. Stranger
   - Christopher R. Gignoux
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-11-11'
   link: https://doi.org/g8q8t2
   orcid: 0000-0001-9021-7331
@@ -97,7 +110,7 @@
   - Barbara E. Stranger
   - Matteo Pellegrini
   - Serghei Mangul
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-03-10'
   link: https://doi.org/gh87dp
   orcid: 0000-0001-9021-7331
@@ -143,7 +156,7 @@
   - Dongmei Yu
   - Lea K. Davis
   - Barbara E. Stranger
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2017-11-21'
   link: https://doi.org/gkxc63
   orcid: 0000-0001-9021-7331
